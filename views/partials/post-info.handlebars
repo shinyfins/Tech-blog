@@ -1,0 +1,17 @@
+<article class="post">
+        <div class="title">
+            <a href="/post{{id}}">{{title}}</a>
+        </div>
+    <div class="meta">
+        <div >
+            {{post_content}}
+        </div>
+        <div>
+            <b>{{user.username}}</b> |
+            <a href="https://github.com/{{user.github}}"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/{{user.linkedIn}}"><i class="fab fa-linkedin"></i></a>
+            | {{format_date created_at}} | <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
+        </div>
+
+    </div>
+</article>

@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+.main-title {
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(#6270b7, #4f3765);
+}
+
+.navbar {
+    color: #4f3765;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #6270b7;
+}
+
+a:hover {
+    color: #4f3765;
+}
+
+button {
+    border: 0;
+    padding: auto;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.post-list {
+    margin: 0;
+    padding: 0;
+}
+
+textarea, input {
+    padding: 1%;
+    border-radius: 7px;
+    border: 2px solid #6270b7;
+}
+
+textarea:focus, input:focus {
+    outline: #66ae97;
+    border: 2px solid #4f3765;
+}
+
+textarea {
+    min-width: 30%;
+    min-height: 100px;
+}
+
+form > div {
+    margin-bottom: 0%;
+}
+
+form label {
+    display: block;
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    border-bottom: 1px solid #6270b7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+}
+
+main {
+    flex: 1;
+    padding: 2% 4%;
+}
+
+.btn {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: none;
+    color: #4f3765;
+    font-size: 100%;
+    font-weight: bold;
+    transition: color .1s;
+    margin-left: 16px;
+}
+  
+.btn:hover {
+    background: none;
+    color: #4f3765;
+}
+  
+.delete-post-btn {
+    background-color: #673636;
+}
+  
+.delete-post-btn:hover {
+    background-color: #ffa893;
+}
+  
+.post {
+    margin-bottom: 2%;
+    line-height: 150%;
+}
+  
+.post .title span {
+    font-style: italic;
+    font-size: 90%;
+    color: #6270b7;
+}
+  
+.edit-link {
+    color: #6270b7;
+    display: block;
+    margin: -1.5% 0 2% 0;
+}
+  
+.comment-form {
+    margin-bottom: 5%;
+}
+  
+.comments {
+    padding: 1%;
+    margin-bottom: 1%;
+}
+  
+.comment .meta {
+    font-size: 90%;
+    margin-bottom: .5%;
+    opacity: .6;
+}
+  
+.edit-post-form {
+    margin-bottom: 5%;
+}
+  
+footer {
+    border-top: 1px solid #6270b7;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    font-size: 110%;
+}
+
+.card {
+      margin-bottom: 1em;
+      margin-top: 1em;
+}
+
+.rows{
+      display:flex;
+      flex-direction: column;
+}
